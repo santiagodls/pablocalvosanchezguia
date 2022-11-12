@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<!DOCTYPE html><html lang="en" class="astro-6MGFFZQU">
+<!DOCTYPE html><html lang="en" class="astro-QLZQP4LX">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <title>Pablo Calvo Sánchez - Guía de montaña</title>
   <link rel="stylesheet" href="/pablocalvosanchezguia/assets/e3b0c442.be19267f.css" />
-<link rel="stylesheet" href="/pablocalvosanchezguia/assets/3d2b355b.c65e6d9c.css" /></head>
+<link rel="stylesheet" href="/pablocalvosanchezguia/assets/3d2b355b.3cb906b7.css" /><script type="module" src="/pablocalvosanchezguia/hoisted.5b27ec96.js"></script></head>
   <body>
-    <main class="flex flex-col min-h-screen overflow-x-hidden astro-6MGFFZQU">
-      <header class="fixed top-0 left-0 z-50 w-full flex justify-between p-6 astro-Q3K2SEPT">
+    <main class="flex flex-col min-h-screen overflow-x-hidden astro-QLZQP4LX">
+      <header class="fixed top-0 left-0 z-50 w-full flex justify-between p-6 astro-7XB2R5ZT" x-data="{ opened: false, isMobile: window.innerWidth <= 620, toggle () { this.opened = !this.opened } }" x-on:resize.window="isMobile = window.innerWidth <= 620">
   <svg width="229" height="56" viewBox="0 0 229 56" fill="none" xmlns="http://www.w3.org/2000/svg" class="astro-HM26WZVZ">
   <g id="logo" class="astro-HM26WZVZ">
     <path id="base" d="M0 0H55.1716V55.1716H0V0Z" class="astro-HM26WZVZ"></path>
@@ -59,102 +59,139 @@
 </svg>
 
 
-  <nav class="flex items-center gap-6 astro-Q3K2SEPT">
-    <a class="link astro-Q3K2SEPT" href="/challenges">Challenges</a><a class="link astro-Q3K2SEPT" href="/formacion">Formación</a><a class="link astro-Q3K2SEPT" href="/premium">Premium</a>
-  </nav>
+  <template x-if="isMobile" class="astro-7XB2R5ZT">
+    <div class="astro-7XB2R5ZT">
+      <div class="flex justify-center shrink-o w-10 text-white astro-7XB2R5ZT" x-on:click="toggle"><svg viewBox="0 0 24 24">
+  <path fill="currentColor" d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
+</svg>
+</div>
+      <div class="fixed top-0 left-0 flex flex-col w-screen h-screen p-6 bg-grey-900 astro-7XB2R5ZT" x-show="opened" x-transition:enter="transition ease-out duration-300" x-transition:enter-start="opacity-0 -translate-x-full" x-transition:enter-end="opacity-100 translate-x-0" x-transition:leave="transition ease-in duration-300" x-transition:leave-start="translate-y-0" x-transition:leave-end="translate-y-full">
+        <div class="shrink-0 self-end w-10 text-white astro-7XB2R5ZT" x-on:click="toggle" x-show="opened" x-transition:enter="transition ease-out duration-300 delay-300" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition"><svg viewBox="0 0 24 24">
+  <path fill="currentColor" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
+</svg>
+</div>
+        <nav class="flex flex-col flex-1 items-center justify-center gap-8 astro-7XB2R5ZT">
+          <a class="font-semibold text-xl text-white astro-7XB2R5ZT" href="/challenges">
+              Challenges
+            </a><a class="font-semibold text-xl text-white astro-7XB2R5ZT" href="/formacion">
+              Formación
+            </a><a class="font-semibold text-xl text-white astro-7XB2R5ZT" href="/premium">
+              Premium
+            </a>
+        </nav>
+      </div>
+    </div>
+  </template>
+  <template x-if="!isMobile" class="astro-7XB2R5ZT">
+    <nav class="flex items-center gap-6 astro-7XB2R5ZT">
+      <a class="link astro-7XB2R5ZT" href="/challenges">Challenges</a><a class="link astro-7XB2R5ZT" href="/formacion">Formación</a><a class="link astro-7XB2R5ZT" href="/premium">Premium</a>
+    </nav>
+  </template>
 </header>
 
 
-      <div class="content flex-1 astro-6MGFFZQU">
-        <section class="hero--section relative flex flex-col justify-center items-center astro-JIZUHAJE">
-    <h1 class="text-4xl text-white text-opacity-90 astro-JIZUHAJE">Tu próxima gran aventura</h1>
-    <img class="hero--image absolute top-0 left-0 -z-10 w-full h-full astro-JIZUHAJE" src="/pablocalvosanchezguia/assets/hero.005698db.jpg" alt="Montaña">
-  </section><section class="about--section pb-24 astro-JIZUHAJE">
-    <div class="astro-JIZUHAJE"><svg class="about--divider -mb-12" viewBox="0 0 1440 441" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <div class="content flex-1 astro-QLZQP4LX">
+        <section class="hs--wrapper relative flex flex-col justify-center items-center astro-LGPDU6CD">
+  <h1 class="text-4xl text-white text-opacity-90 astro-LGPDU6CD">Tu próxima gran aventura</h1>
+  <img class="hs--image absolute top-0 left-0 -z-10 w-full h-full astro-LGPDU6CD" src="/pablocalvosanchezguia/assets/hero.005698db.jpg" alt="Montaña">
+</section>
+
+<section class="bg-grey-700 pb-20 astro-DSM4C2VK">
+  <div class="astro-DSM4C2VK"><svg class="about--divider -mb-12" viewBox="0 0 1440 441" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="100%" height="90%" fill="var(--bg-grey-900)"/>
   <path d="M1250.68 196.084C1325.21 162.511 1403.77 165.941 1440 196.084V440.895H0V341.895V243.5C6.5 104 -35.9884 -30.7397 171.361 6.2316C378.711 43.2029 403.753 187.091 528.964 123.641C654.175 60.1898 737.315 243.048 906.1 253.54C1074.88 264.032 1157.52 238.052 1250.68 196.084Z" fill="var(--bg-grey-700)"/>
 </svg>
 </div>
-    <div class="section--box flex justify-between items-center -mt-64 astro-JIZUHAJE">
-      <div class="section--text mr-6 astro-JIZUHAJE">
-        <h2 class="section--title astro-JIZUHAJE"><strong class="astro-JIZUHAJE">Un poco</strong> sobre mí</h2>
-        <p class="astro-JIZUHAJE">
-          La cuerda es como <b class="astro-JIZUHAJE">mi segunda piel</b>. A través de ella siento lo que tú sientes en cada momento y en cada uno de tus movimientos, tus latidos, tus pasos hacia mí, tus miedos, tus emociones y tus logros.
-        </p>
-        <p class="astro-JIZUHAJE">
-          La cuerda <b class="astro-JIZUHAJE">me dice cuándo puedo tensar o dónde puedo relajar la tensión</b>. Por eso me gusta mi profesión, porque me gusta compartir el extremo de la cuerda contigo. Contagiarte de cada paisaje, de cada rincón y así llegar juntos a cada cumbre.
-        </p>
-      </div>
-      <img src="/pablocalvosanchezguia/assets/landing-01.f82791f4.png" class="astro-JIZUHAJE">
-    </div>
-  </section><section class="challenges--section astro-JIZUHAJE">
-    <div class="section--box flex flex-col py-48 astro-JIZUHAJE">
-      <div class="section--text w-1/2 mb-32 text-right self-end astro-JIZUHAJE">
-        <h2 class="section--title astro-JIZUHAJE"><strong class="astro-JIZUHAJE">Weekend</strong> challenges</h2>
-        <p class="astro-JIZUHAJE">
-          Si quieres una idea para un <b class="astro-JIZUHAJE">Weekend Challenge</b>, puedes elegir un reto en diferentes partes de España. Aquí tienes un surtido de <b class="astro-JIZUHAJE">las mejores actividades de escalada</b> para realizar acompañado de un <b class="astro-JIZUHAJE">guía especializado</b> que le dará seguridad y confianza a tus aventuras. Tu eliges el reto, yo te acompaño.
-        </p>
-      </div>
-      <style>astro-island,astro-slot{display:contents}</style><script>(self.Astro=self.Astro||{}).only=a=>{(async()=>await(await a())())()};var a;{const l={0:t=>t,1:t=>JSON.parse(t,o),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(JSON.parse(t,o)),5:t=>new Set(JSON.parse(t,o)),6:t=>BigInt(t),7:t=>new URL(t)},o=(t,s)=>{if(t===""||!Array.isArray(s))return s;const[e,i]=s;return e in l?l[e](i):void 0};customElements.get("astro-island")||customElements.define("astro-island",(a=class extends HTMLElement{constructor(){super(...arguments);this.hydrate=()=>{if(!this.hydrator||this.parentElement?.closest("astro-island[ssr]"))return;const s=this.querySelectorAll("astro-slot"),e={},i=this.querySelectorAll("template[data-astro-template]");for(const r of i)!r.closest(this.tagName)?.isSameNode(this)||(e[r.getAttribute("data-astro-template")||"default"]=r.innerHTML,r.remove());for(const r of s)!r.closest(this.tagName)?.isSameNode(this)||(e[r.getAttribute("name")||"default"]=r.innerHTML);const n=this.hasAttribute("props")?JSON.parse(this.getAttribute("props"),o):{};this.hydrator(this)(this.Component,n,e,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),window.removeEventListener("astro:hydrate",this.hydrate),window.dispatchEvent(new CustomEvent("astro:hydrate"))}}async connectedCallback(){window.addEventListener("astro:hydrate",this.hydrate),await import(this.getAttribute("before-hydration-url"));const s=JSON.parse(this.getAttribute("opts"));Astro[this.getAttribute("client")](async()=>{const e=this.getAttribute("renderer-url"),[i,{default:n}]=await Promise.all([import(this.getAttribute("component-url")),e?import(e):()=>()=>{}]);return this.Component=i[this.getAttribute("component-export")||"default"],this.hydrator=n,this.hydrate},s,this)}attributeChangedCallback(){this.hydrator&&this.hydrate()}},a.observedAttributes=["props"],a))}</script><astro-island uid="Z1xY5X9" component-url="/pablocalvosanchezguia/ChallengesSlider.7b620079.js" component-export="default" renderer-url="/pablocalvosanchezguia/client.f5a8581b.js" props="{&quot;class&quot;:[0,&quot;astro-JIZUHAJE&quot;]}" ssr="" client="only" before-hydration-url="data:text/javascript;charset=utf-8,//[no before-hydration script]" opts="{&quot;name&quot;:&quot;ChallengesSlider&quot;,&quot;value&quot;:&quot;svelte&quot;}"></astro-island>
-    </div>
-  </section><section class="school--section astro-JIZUHAJE">
-    <div class="section--box flex flex-col pb-60 astro-JIZUHAJE">
-      <div class="absolute -top-60 -right-60 w-3/6 astro-JIZUHAJE"><svg class="section--shape" viewBox="0 0 868 1133" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <div class="sb--wrapper flex justify-between items-center -mt-64 astro-DE7KJQ4D">
+  <div class="st--wrapper mr-6 astro-5DC4FE3J">
+  <div class="st--title astro-5DC4FE3J">
+    <h2 class="astro-5DC4FE3J"><strong class="astro-5DC4FE3J">Un</strong> poco sobre mí</h2>
+  </div>
+  <div class="st--text astro-5DC4FE3J"><p class="astro-DSM4C2VK">La cuerda es como <b class="astro-DSM4C2VK">mi segunda piel</b>. A través de ella siento lo que tú sientes en cada momento y en cada uno de tus movimientos, tus latidos, tus pasos hacia mí, tus miedos, tus emociones y tus logros.</p><p class="astro-DSM4C2VK">La cuerda <b class="astro-DSM4C2VK">me dice cuándo puedo tensar o dónde puedo relajar la tensión</b>. Por eso me gusta mi profesión, porque me gusta compartir el extremo de la cuerda contigo. Contagiarte de cada paisaje, de cada rincón y así llegar juntos a cada cumbre.</p></div>
+</div>
+
+<img src="/pablocalvosanchezguia/assets/01.f82791f4.png" class="astro-DSM4C2VK">
+</div>
+
+
+</section>
+
+<section class="cs--wrapper relative z-10 astro-T35TJ5NH">
+  <div class="sb--wrapper flex flex-col py-48 astro-DE7KJQ4D">
+  <div class="st--wrapper w-1/2 mb-32 text-right self-end astro-5DC4FE3J">
+  <div class="st--title astro-5DC4FE3J">
+    <h2 class="astro-5DC4FE3J"><strong class="astro-5DC4FE3J">Weekend</strong> challenges</h2>
+  </div>
+  <div class="st--text astro-5DC4FE3J"><p class="astro-T35TJ5NH">Si quieres una idea para un <b class="astro-T35TJ5NH">Weekend Challenge</b>, puedes elegir un reto en diferentes partes de España. Aquí tienes un surtido de <b class="astro-T35TJ5NH">las mejores actividades de escalada</b> para realizar acompañado de un <b class="astro-T35TJ5NH">guía especializado</b> que le dará seguridad y confianza a tus aventuras. Tu eliges el reto, yo te acompaño.</p></div>
+</div>
+
+<style>astro-island,astro-slot{display:contents}</style><script>(self.Astro=self.Astro||{}).only=a=>{(async()=>await(await a())())()};var a;{const l={0:t=>t,1:t=>JSON.parse(t,o),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(JSON.parse(t,o)),5:t=>new Set(JSON.parse(t,o)),6:t=>BigInt(t),7:t=>new URL(t)},o=(t,s)=>{if(t===""||!Array.isArray(s))return s;const[e,i]=s;return e in l?l[e](i):void 0};customElements.get("astro-island")||customElements.define("astro-island",(a=class extends HTMLElement{constructor(){super(...arguments);this.hydrate=()=>{if(!this.hydrator||this.parentElement?.closest("astro-island[ssr]"))return;const s=this.querySelectorAll("astro-slot"),e={},i=this.querySelectorAll("template[data-astro-template]");for(const r of i)!r.closest(this.tagName)?.isSameNode(this)||(e[r.getAttribute("data-astro-template")||"default"]=r.innerHTML,r.remove());for(const r of s)!r.closest(this.tagName)?.isSameNode(this)||(e[r.getAttribute("name")||"default"]=r.innerHTML);const n=this.hasAttribute("props")?JSON.parse(this.getAttribute("props"),o):{};this.hydrator(this)(this.Component,n,e,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),window.removeEventListener("astro:hydrate",this.hydrate),window.dispatchEvent(new CustomEvent("astro:hydrate"))}}async connectedCallback(){window.addEventListener("astro:hydrate",this.hydrate),await import(this.getAttribute("before-hydration-url"));const s=JSON.parse(this.getAttribute("opts"));Astro[this.getAttribute("client")](async()=>{const e=this.getAttribute("renderer-url"),[i,{default:n}]=await Promise.all([import(this.getAttribute("component-url")),e?import(e):()=>()=>{}]);return this.Component=i[this.getAttribute("component-export")||"default"],this.hydrator=n,this.hydrate},s,this)}attributeChangedCallback(){this.hydrator&&this.hydrate()}},a.observedAttributes=["props"],a))}</script><astro-island uid="ZyABRA" component-url="/pablocalvosanchezguia/ChallengesSlider.ab45a354.js" component-export="default" renderer-url="/pablocalvosanchezguia/client.f5a8581b.js" props="{&quot;class&quot;:[0,&quot;astro-T35TJ5NH&quot;]}" ssr="" client="only" before-hydration-url="data:text/javascript;charset=utf-8,//[no before-hydration script]" opts="{&quot;name&quot;:&quot;ChallengesSlider&quot;,&quot;value&quot;:&quot;svelte&quot;}"></astro-island>
+</div>
+
+
+</section>
+
+<section class="ss--wrapper relative z-10 bg-grey-900 astro-3TFT3ICT">
+  <div class="sb--wrapper flex flex-col pb-60 astro-DE7KJQ4D">
+  <div class="absolute -top-60 -right-60 w-3/6 astro-3TFT3ICT"><svg class="section--shape" viewBox="0 0 868 1133" fill="none" xmlns="http://www.w3.org/2000/svg">
   <path d="M117.5 383L865 1130.5" stroke="white" stroke-opacity="0.17" stroke-width="6"/>
   <circle cx="342" cy="392.5" r="322" stroke="#C4C4C4" stroke-opacity="0.17" stroke-width="7"/>
   <circle cx="266" cy="87.5" r="84" stroke="#C4C4C4" stroke-opacity="0.17" stroke-width="7"/>
   <path d="M3 175L750.5 922.5" stroke="white" stroke-opacity="0.17" stroke-width="6"/>
 </svg>
+</div><div class="st--wrapper w-1/2 py-20 text-center m-auto astro-5DC4FE3J">
+  <div class="st--title astro-5DC4FE3J">
+    <h2 class="astro-5DC4FE3J"><strong class="astro-5DC4FE3J">Formación</strong> en montaña</h2>
+  </div>
+  <div class="st--text astro-5DC4FE3J"><p class="astro-3TFT3ICT">Si tu objetivo es conseguir la <b class="astro-3TFT3ICT">autosuficiencia</b> con absoluta seguridad desde el inicio de la escalada, esta es tu sección. Un amplio abanico de posibilidades se abren ante ti para nutrir el <b class="astro-3TFT3ICT">cuerpo y el alma</b>.</p></div>
 </div>
-			<div class="section--text w-1/2 py-20 text-center m-auto astro-JIZUHAJE">
-        <h2 class="section--title astro-JIZUHAJE"><strong class="astro-JIZUHAJE">Formación</strong> en montaña</h2>
-				<p class="astro-JIZUHAJE">
- 					Si tu objetivo es conseguir la <b class="astro-JIZUHAJE">autosuficiencia</b> con absoluta seguridad desde el inicio de la escalada, esta es tu sección. Un amplio abanico de posibilidades se abren ante ti para nutrir el <b class="astro-JIZUHAJE">cuerpo y el alma</b>.
-				</p><p class="astro-JIZUHAJE">
-			</p></div>
-      <div class="absolute w-96 astro-JIZUHAJE" style="top: 20em; left: -3em;"><svg class="section--shape" viewBox="0 0 495 1195" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<div class="absolute w-96 astro-3TFT3ICT" style="top: 20em; left: -3em;"><svg class="section--shape" viewBox="0 0 495 1195" fill="none" xmlns="http://www.w3.org/2000/svg">
   <path d="M316.964 340.252L285.688 259.578H129.312L98.0362 340.252H0L151.565 0H262.833L415 340.252H316.964ZM232.761 120.536C230.756 115.157 228.15 108.355 224.942 100.13C221.734 91.9044 218.527 83.5207 215.319 74.9788C212.111 66.4369 209.505 59.0023 207.5 52.675C205.495 59.0023 202.688 66.9115 199.08 76.4024C195.872 85.5771 192.664 94.4353 189.457 102.977C186.65 111.203 184.444 117.055 182.841 120.536L152.167 199.311H264.036L232.761 120.536Z" fill="white" fill-opacity="0.16"/>
   <path d="M187.652 383.425C225.744 383.425 257.621 386.272 283.283 391.967C309.345 397.345 328.792 406.361 341.623 419.016C354.855 431.354 361.471 448.122 361.471 469.318C361.471 481.973 358.865 493.52 353.652 503.961C348.44 514.401 340.821 522.942 330.797 529.586C321.174 536.23 309.345 540.501 295.312 542.399V544.772C309.746 546.986 322.778 550.941 334.406 556.635C346.034 562.33 355.256 570.556 362.072 581.312C368.889 592.069 372.297 606.305 372.297 624.021C372.297 644.585 365.882 662.302 353.051 677.171C340.621 691.724 322.577 702.955 298.92 710.864C275.263 718.457 247.196 722.253 214.717 722.253H54.1304V383.425H187.652ZM197.877 517.722C224.341 517.722 242.585 514.401 252.609 507.757C263.034 501.113 268.246 491.464 268.246 478.809C268.246 465.838 262.232 456.506 250.203 450.811C238.174 445.116 219.128 442.269 193.065 442.269H144.949V517.722H197.877ZM144.949 574.668V662.934H204.493C231.758 662.934 250.804 658.822 261.63 650.596C272.457 642.054 277.87 630.823 277.87 616.903C277.87 608.361 275.464 600.927 270.652 594.599C266.242 588.272 258.423 583.368 247.196 579.888C235.969 576.408 220.732 574.668 201.486 574.668H144.949Z" fill="white" fill-opacity="0.16"/>
   <path d="M236.37 830.474C219.128 830.474 203.691 833.163 190.058 838.541C176.826 843.92 165.599 851.671 156.377 861.794C147.155 871.602 140.138 883.623 135.326 897.86C130.915 912.096 128.71 928.073 128.71 945.79C128.71 969.833 132.319 990.397 139.536 1007.48C147.155 1024.25 158.983 1037.06 175.022 1045.92C191.06 1054.78 211.51 1059.21 236.37 1059.21C254.012 1059.21 271.454 1057.62 288.696 1054.46C306.338 1051.3 325.384 1046.87 345.833 1041.17V1101.44C326.988 1107.45 308.343 1111.88 289.899 1114.73C271.454 1117.58 250.804 1119 227.949 1119C183.843 1119 147.355 1111.88 118.486 1097.65C90.0169 1083.09 68.9662 1062.84 55.3333 1036.9C41.7005 1010.64 34.8841 980.115 34.8841 945.315C34.8841 919.689 39.2947 896.278 48.1159 875.082C56.9372 853.569 69.7681 835.061 86.6087 819.559C103.85 804.057 124.901 792.036 149.761 783.494C175.022 774.952 203.891 770.681 236.37 770.681C257.621 770.681 278.872 772.895 300.123 777.325C321.775 781.437 342.425 787.132 362.072 794.408L332.601 852.778C316.563 846.767 300.324 841.547 283.884 837.118C267.845 832.689 252.007 830.474 236.37 830.474Z" fill="white" fill-opacity="0.16"/>
   <rect x="211.5" y="104.5" width="280" height="862" stroke="#C4C4C4" stroke-opacity="0.29" stroke-width="7"/>
   <rect x="3.5" y="329.5" width="280" height="862" stroke="#C4C4C4" stroke-opacity="0.29" stroke-width="7"/>
 </svg>
-</div>
-      <ul class="flex flex-col text-white w-full max-w-2xl m-auto astro-TWOS2574">
-  <li class="flex gap-6 astro-TWOS2574">
-      <div class="w-48 h-48 shrink-0 rounded-full overflow-hidden astro-TWOS2574">
-        <img class="w-full h-full astro-TWOS2574" src="/pablocalvosanchezguia/assets/01.60dc6762.jpg" alt="course.title}">
+</div><ul class="flex flex-col text-white w-full max-w-2xl m-auto astro-D5ABFDFZ">
+  <li class="flex gap-6 astro-D5ABFDFZ">
+      <div class="w-48 h-48 shrink-0 rounded-full overflow-hidden astro-D5ABFDFZ">
+        <img class="w-full h-full astro-D5ABFDFZ" src="/pablocalvosanchezguia/assets/01.60dc6762.jpg" alt="course.title}">
       </div>
-      <div class="flex flex-col gap-2 mb-8 astro-TWOS2574">
-        <h3 class="text-xl astro-TWOS2574">Iniciación a la escalada deportiva</h3>
-        <h4 class="opacity-70 astro-TWOS2574">Fuerza y mente</h4>
-        <p class="opacity-50 astro-TWOS2574">Ya has dado tu primer paso en este mundo de aventuras y desafíos. Ahora toca aprender lo necesario para superar nuevos retos siempre con seguridad y autonomía. Aprender nuevos nudos, progresar verticalmente sobre la roca, anticiparte a situaciones que suceden y tomar decisiones que te permitan avanzar de forma correcta.</p><p class="opacity-50 astro-TWOS2574">¡Y si hoy no consigues terminar esa vía, no te preocupes mañana seguirá estando ahí!</p>
+      <div class="flex flex-col gap-2 mb-8 astro-D5ABFDFZ">
+        <h3 class="text-xl astro-D5ABFDFZ">Iniciación a la escalada deportiva</h3>
+        <h4 class="opacity-70 astro-D5ABFDFZ">Fuerza y mente</h4>
+        <p class="opacity-50 astro-D5ABFDFZ">Ya has dado tu primer paso en este mundo de aventuras y desafíos. Ahora toca aprender lo necesario para superar nuevos retos siempre con seguridad y autonomía. Aprender nuevos nudos, progresar verticalmente sobre la roca, anticiparte a situaciones que suceden y tomar decisiones que te permitan avanzar de forma correcta.</p><p class="opacity-50 astro-D5ABFDFZ">¡Y si hoy no consigues terminar esa vía, no te preocupes mañana seguirá estando ahí!</p>
       </div>
-    </li><li class="flex gap-6 astro-TWOS2574">
-      <div class="w-48 h-48 shrink-0 rounded-full overflow-hidden astro-TWOS2574">
-        <img class="w-full h-full astro-TWOS2574" src="/pablocalvosanchezguia/assets/02.a3aa6f81.jpg" alt="course.title}">
+    </li><li class="flex gap-6 astro-D5ABFDFZ">
+      <div class="w-48 h-48 shrink-0 rounded-full overflow-hidden astro-D5ABFDFZ">
+        <img class="w-full h-full astro-D5ABFDFZ" src="/pablocalvosanchezguia/assets/02.a3aa6f81.jpg" alt="course.title}">
       </div>
-      <div class="flex flex-col gap-2 mb-8 astro-TWOS2574">
-        <h3 class="text-xl astro-TWOS2574">Varios largos equipados</h3>
-        <h4 class="opacity-70 astro-TWOS2574">Más allá de la primera reunión</h4>
-        <p class="opacity-50 astro-TWOS2574">Bienvenido al mundo de los largos recorridos,  una forma de ver la realidad que te puede cambiar la vida. En este curso aprenderás a gestionar tus emociones, agudizar tus sentidos y confiar en tu compañero/a para llegar a tu objetivo. Uno de los grandes valores de este deporte que inspiran relatos contradictorios de soledad se verán superados una vez que alcancemos la cima. ¡Sabía que no ibas a tardar en dar este paso, te acompaño!.</p>
+      <div class="flex flex-col gap-2 mb-8 astro-D5ABFDFZ">
+        <h3 class="text-xl astro-D5ABFDFZ">Varios largos equipados</h3>
+        <h4 class="opacity-70 astro-D5ABFDFZ">Más allá de la primera reunión</h4>
+        <p class="opacity-50 astro-D5ABFDFZ">Bienvenido al mundo de los largos recorridos,  una forma de ver la realidad que te puede cambiar la vida. En este curso aprenderás a gestionar tus emociones, agudizar tus sentidos y confiar en tu compañero/a para llegar a tu objetivo. Uno de los grandes valores de este deporte que inspiran relatos contradictorios de soledad se verán superados una vez que alcancemos la cima. ¡Sabía que no ibas a tardar en dar este paso, te acompaño!.</p>
       </div>
-    </li><li class="flex gap-6 astro-TWOS2574">
-      <div class="w-48 h-48 shrink-0 rounded-full overflow-hidden astro-TWOS2574">
-        <img class="w-full h-full astro-TWOS2574" src="/pablocalvosanchezguia/assets/03.3557745d.jpg" alt="course.title}">
+    </li><li class="flex gap-6 astro-D5ABFDFZ">
+      <div class="w-48 h-48 shrink-0 rounded-full overflow-hidden astro-D5ABFDFZ">
+        <img class="w-full h-full astro-D5ABFDFZ" src="/pablocalvosanchezguia/assets/03.3557745d.jpg" alt="course.title}">
       </div>
-      <div class="flex flex-col gap-2 mb-8 astro-TWOS2574">
-        <h3 class="text-xl astro-TWOS2574">Escalada clásica</h3>
-        <h4 class="opacity-70 astro-TWOS2574">A vista de pájaro</h4>
-        <p class="opacity-50 astro-TWOS2574">Si estas mirando este apartado es porque quieres dar el Gran Salto y enfrentarte a las grandes paredes, a los grandes retos. Experimentar una técnica de escalada pura y auténtica. Dar libertad a tu creatividad será tu mayor aliado para encontrar los mejores anclajes en fisuras, árboles, puentes de roca y todo aquello que consideres idóneo para fluir por la pared.</p>
+      <div class="flex flex-col gap-2 mb-8 astro-D5ABFDFZ">
+        <h3 class="text-xl astro-D5ABFDFZ">Escalada clásica</h3>
+        <h4 class="opacity-70 astro-D5ABFDFZ">A vista de pájaro</h4>
+        <p class="opacity-50 astro-D5ABFDFZ">Si estas mirando este apartado es porque quieres dar el Gran Salto y enfrentarte a las grandes paredes, a los grandes retos. Experimentar una técnica de escalada pura y auténtica. Dar libertad a tu creatividad será tu mayor aliado para encontrar los mejores anclajes en fisuras, árboles, puentes de roca y todo aquello que consideres idóneo para fluir por la pared.</p>
       </div>
     </li>
 </ul>
 
 
-		</div>
-  </section><section class="premium--section relative astro-JIZUHAJE">
-    <div class="w-full relative">
+</div>
+
+
+</section>
+
+<section class="ps--wrapper relative bg-grey-700 astro-GF6TAPTE">
+  <div class="w-full relative">
   <div class="absolute -top-4 left-0 z-10 w-full" style="color: var(--bg-grey-900);"><svg viewBox="0 0 1440 294" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M0 0H1440V87.5L0 294V0Z" fill="currentColor"/>
 </svg>
@@ -165,76 +202,78 @@
 </svg>
 </div>
   </div>
-    <div class="section--box flex flex-col pb-60 astro-JIZUHAJE">
-      <div class="section--text w-2/3 py-4 mb-36 astro-JIZUHAJE">
-        <h2 class="section--title astro-JIZUHAJE"><strong class="astro-JIZUHAJE">Programas</strong> Premium</h2>
-        <p class="astro-JIZUHAJE">
-          <b class="astro-JIZUHAJE">Experiencias reales</b> para gente verdadera que quiere aprovechar al máximo su tiempo.
-          Yo lo defino como programas «Premium-Pepino» por que la escalada no es lo único que cuenta.
-          La logística, el lugar, la elección de las vías, los cielos estrellados o el olor del café por la mañana, hacen que sean actividades muy completas y selectas. <b class="astro-JIZUHAJE">Experiencias únicas fuera de lo cotidiano y lo preestablecido</b>.
-        </p><p class="astro-JIZUHAJE">
-      </p></div>
-      <astro-island uid="1V4RSW" component-url="/pablocalvosanchezguia/PremiumSlider.d0699d2e.js" component-export="default" renderer-url="/pablocalvosanchezguia/client.f5a8581b.js" props="{&quot;class&quot;:[0,&quot;astro-JIZUHAJE&quot;]}" ssr="" client="only" before-hydration-url="data:text/javascript;charset=utf-8,//[no before-hydration script]" opts="{&quot;name&quot;:&quot;PremiumSlider&quot;,&quot;value&quot;:&quot;svelte&quot;}"></astro-island>
-      <div class="absolute -left-20 -bottom-48 w-128 -rotate-45 z-10 astro-JIZUHAJE"><svg class="section--shape" viewBox="0 0 868 1133" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <div class="sb--wrapper flex flex-col pb-60 astro-DE7KJQ4D">
+  <div class="st--wrapper w-2/3 py-4 mb-36 astro-5DC4FE3J">
+  <div class="st--title astro-5DC4FE3J">
+    <h2 class="astro-5DC4FE3J"><strong class="astro-5DC4FE3J">Programas</strong> Premium</h2>
+  </div>
+  <div class="st--text astro-5DC4FE3J"><p class="astro-GF6TAPTE"><b class="astro-GF6TAPTE">Experiencias reales</b> para gente verdadera que quiere aprovechar al máximo su tiempo.Yo lo defino como programas «Premium-Pepino» por que la escalada no es lo único que cuenta.La logística, el lugar, la elección de las vías, los cielos estrellados o el olor del café por la mañana, hacen que sean actividades muy completas y selectas. <b class="astro-GF6TAPTE">Experiencias únicas fuera de lo cotidiano y lo preestablecido</b>.</p></div>
+</div>
+
+<astro-island uid="iFr1z" component-url="/pablocalvosanchezguia/PremiumSlider.cf6f288c.js" component-export="default" renderer-url="/pablocalvosanchezguia/client.f5a8581b.js" props="{&quot;class&quot;:[0,&quot;astro-GF6TAPTE&quot;]}" ssr="" client="only" before-hydration-url="data:text/javascript;charset=utf-8,//[no before-hydration script]" opts="{&quot;name&quot;:&quot;PremiumSlider&quot;,&quot;value&quot;:&quot;svelte&quot;}"></astro-island><div class="absolute -left-20 -bottom-48 w-128 -rotate-45 z-10 astro-GF6TAPTE"><svg class="section--shape" viewBox="0 0 868 1133" fill="none" xmlns="http://www.w3.org/2000/svg">
   <path d="M117.5 383L865 1130.5" stroke="white" stroke-opacity="0.17" stroke-width="6"/>
   <circle cx="342" cy="392.5" r="322" stroke="#C4C4C4" stroke-opacity="0.17" stroke-width="7"/>
   <circle cx="266" cy="87.5" r="84" stroke="#C4C4C4" stroke-opacity="0.17" stroke-width="7"/>
   <path d="M3 175L750.5 922.5" stroke="white" stroke-opacity="0.17" stroke-width="6"/>
 </svg>
 </div>
-    </div>
-  </section><section class="text-white relative w-full astro-KA5IQAC4" style="background: var(--bg-grey-900);">
-  <div class="absolute top-0 left-0 w-full z-10 astro-KA5IQAC4" style="color: var(--bg-grey-700);"><svg viewBox="0 0 1440 294" fill="none" xmlns="http://www.w3.org/2000/svg">
+</div>
+
+
+</section>
+
+<section class="text-white relative w-full astro-YH64LQLS" style="background: var(--bg-grey-900);">
+  <div class="absolute top-0 left-0 w-full z-10 astro-YH64LQLS" style="color: var(--bg-grey-700);"><svg viewBox="0 0 1440 294" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M0 0H1440V87.5L0 294V0Z" fill="currentColor"/>
 </svg>
 </div>
-  <div class="flex overflow-hidden astro-KA5IQAC4">
-    <img class="mt-32 astro-KA5IQAC4" src="/pablocalvosanchezguia/assets/01.8e034ad8.jpg" alt="Escalador escalando un diedro">
-    <div class="relative p-20 pt-80 max-w-3xl text-right astro-KA5IQAC4">
-      <div class="rotate-360 absolute top-0 -left-60 w-60 astro-KA5IQAC4" style="color: var(--bg-grey-900);"><svg height="100%" viewBox="0 0 209 1324" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <div class="flex overflow-hidden astro-YH64LQLS">
+    <img class="mt-32 astro-YH64LQLS" src="/pablocalvosanchezguia/assets/01.8e034ad8.jpg" alt="Escalador escalando un diedro">
+    <div class="relative p-20 pt-80 max-w-3xl text-right astro-YH64LQLS">
+      <div class="rotate-360 absolute top-0 -left-60 w-60 astro-YH64LQLS" style="color: var(--bg-grey-900);"><svg height="100%" viewBox="0 0 209 1324" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M0 0H209V1324H195.901L0 0Z" fill="currentColor"/>
 </svg>
 </div>
-      <div class="flex flex-col gap-12 astro-KA5IQAC4">
+      <div class="flex flex-col gap-12 astro-YH64LQLS">
         <div class="st--wrapper  astro-5DC4FE3J">
   <div class="st--title astro-5DC4FE3J">
     <h2 class="astro-5DC4FE3J"><strong class="astro-5DC4FE3J">Estamos</strong> en contacto!</h2>
   </div>
-  <div class="st--text astro-5DC4FE3J"><p class="astro-KA5IQAC4">Si necesitas ponerte en contacto conmigo puedes llamar al <b class="astro-KA5IQAC4">+34 669 503 466</b></p><p class="astro-KA5IQAC4"><b class="astro-KA5IQAC4">O bien envíame un correo aquí abajo</b>. Si en 24h no te he contestado, lo siento debe ser que estoy en el monte partiendo la «pana». No desesperes, que cuando baje me pondré en contacto contigo lo antes posible.</p></div>
+  <div class="st--text astro-5DC4FE3J"><p class="astro-YH64LQLS">Si necesitas ponerte en contacto conmigo puedes llamar al <b class="astro-YH64LQLS">+34 669 503 466</b></p><p class="astro-YH64LQLS"><b class="astro-YH64LQLS">O bien envíame un correo aquí abajo</b>. Si en 24h no te he contestado, lo siento debe ser que estoy en el monte partiendo la «pana». No desesperes, que cuando baje me pondré en contacto contigo lo antes posible.</p></div>
 </div>
 
 
-        <form class="flex flex-col gap-4 text-left astro-KA5IQAC4">
-          <div class="form--field required astro-KA5IQAC4">
-            <label class="astro-KA5IQAC4">Nombre</label>
-            <input type="text" name="name" required class="astro-KA5IQAC4">
+        <form class="flex flex-col gap-4 text-left astro-YH64LQLS">
+          <div class="form--field required astro-YH64LQLS">
+            <label class="astro-YH64LQLS">Nombre</label>
+            <input type="text" name="name" required class="astro-YH64LQLS">
           </div>
-          <div class="form--field required astro-KA5IQAC4">
-            <label class="astro-KA5IQAC4">Email</label>
-            <input type="text" name="email" required class="astro-KA5IQAC4">
+          <div class="form--field required astro-YH64LQLS">
+            <label class="astro-YH64LQLS">Email</label>
+            <input type="text" name="email" required class="astro-YH64LQLS">
           </div>
-          <div class="form--field required astro-KA5IQAC4">
-            <label class="astro-KA5IQAC4">Teléfono</label>
-            <input type="text" name="telephone" required class="astro-KA5IQAC4">
+          <div class="form--field required astro-YH64LQLS">
+            <label class="astro-YH64LQLS">Teléfono</label>
+            <input type="text" name="telephone" required class="astro-YH64LQLS">
           </div>
-          <div class="form--field astro-KA5IQAC4">
-            <label class="astro-KA5IQAC4">Mensaje</label>
-            <textarea class="astro-KA5IQAC4"></textarea>
+          <div class="form--field astro-YH64LQLS">
+            <label class="astro-YH64LQLS">Mensaje</label>
+            <textarea class="astro-YH64LQLS"></textarea>
           </div>
-          <div class="flex justify-end astro-KA5IQAC4">
+          <div class="flex justify-end astro-YH64LQLS">
             <button class="px-8 py-4 rounded-md bg-amber-300 font-semibold"><span class="text-gray-900">Enviar</span></button>
           </div>
         </form>
       </div>
     </div>
   </div>
-  <div class="w-full h-24 bg-amber-300 astro-KA5IQAC4"></div>
+  <div class="w-full h-24 bg-amber-300 astro-YH64LQLS"></div>
 </section>
 
 
       </div>
-      <footer class="flex justify-center text-white text-opacity-80 astro-OX6BQRCG" style="background: var(--bg-grey-900);">
-  <div class="flex justify-between w-full max-w-5xl py-28 px-8 astro-OX6BQRCG">
+      <footer class="flex justify-center text-white text-opacity-80 astro-6OTMGXHN" style="background: var(--bg-grey-900);">
+  <div class="flex justify-between w-full max-w-5xl py-28 px-8 astro-6OTMGXHN">
     <svg width="229" height="56" viewBox="0 0 229 56" fill="none" xmlns="http://www.w3.org/2000/svg" class="astro-HM26WZVZ">
   <g id="logo" class="astro-HM26WZVZ">
     <path id="base" d="M0 0H55.1716V55.1716H0V0Z" class="astro-HM26WZVZ"></path>
@@ -284,16 +323,16 @@
 </svg>
 
 
-    <div class="flex gap-4 items-center astro-OX6BQRCG">
-      <div class="social--icon astro-OX6BQRCG"><svg viewBox="0 0 24 24">
+    <div class="flex gap-4 items-center astro-6OTMGXHN">
+      <div class="social--icon astro-6OTMGXHN"><svg viewBox="0 0 24 24">
     <path fill="currentColor" d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z" />
 </svg>
 </div>
-      <div class="social--icon astro-OX6BQRCG"><svg viewBox="0 0 24 24">
+      <div class="social--icon astro-6OTMGXHN"><svg viewBox="0 0 24 24">
     <path fill="currentColor" d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" />
 </svg>
 </div>
-      <div class="social--icon astro-OX6BQRCG"><svg viewBox="0 0 24 24">
+      <div class="social--icon astro-6OTMGXHN"><svg viewBox="0 0 24 24">
     <path fill="currentColor" d="M10,15L15.19,12L10,9V15M21.56,7.17C21.69,7.64 21.78,8.27 21.84,9.07C21.91,9.87 21.94,10.56 21.94,11.16L22,12C22,14.19 21.84,15.8 21.56,16.83C21.31,17.73 20.73,18.31 19.83,18.56C19.36,18.69 18.5,18.78 17.18,18.84C15.88,18.91 14.69,18.94 13.59,18.94L12,19C7.81,19 5.2,18.84 4.17,18.56C3.27,18.31 2.69,17.73 2.44,16.83C2.31,16.36 2.22,15.73 2.16,14.93C2.09,14.13 2.06,13.44 2.06,12.84L2,12C2,9.81 2.16,8.2 2.44,7.17C2.69,6.27 3.27,5.69 4.17,5.44C4.64,5.31 5.5,5.22 6.82,5.16C8.12,5.09 9.31,5.06 10.41,5.06L12,5C16.19,5 18.8,5.16 19.83,5.44C20.73,5.69 21.31,6.27 21.56,7.17Z" />
 </svg>
 </div>
